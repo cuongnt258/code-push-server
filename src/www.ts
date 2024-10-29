@@ -7,6 +7,7 @@ import validator from 'validator';
 import { app } from './app';
 import { CURRENT_DB_VERSION } from './core/const';
 import { Versions } from './models/versions';
+require('dotenv').config()
 
 /**
  * Normalize a port into a number, string, or false.

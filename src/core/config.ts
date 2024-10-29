@@ -6,6 +6,7 @@ import {
     LogLevel,
     withLogLevelFilter,
 } from 'kv-logger';
+require('dotenv').config()
 
 function toBool(str: string): boolean {
     return str === 'true' || str === '1';

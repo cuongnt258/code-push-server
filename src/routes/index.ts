@@ -145,5 +145,5 @@ indexRouter.post(
 );
 
 indexRouter.get('/authenticated', checkToken, (req, res) => {
-    return res.send({ authenticated: true });
+    res.send({ authenticated: true });
 });
